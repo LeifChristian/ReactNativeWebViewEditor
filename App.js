@@ -21,7 +21,7 @@ const [howHigh, setHowHigh] = useState('');
   }
 
 useEffect(() => {
-  setTheAppUrl('http://54.215.36.230:3006')
+  setTheAppUrl('http://...215.36.230:3006')
 console.log(theAppUrl);
 }, [theAppUrl, toggle])
 
