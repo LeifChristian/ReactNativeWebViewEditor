@@ -6,6 +6,6 @@ git clone
 expo install
 expo start
 
-React Native is pretty b***ss.
+Cheers!
 
 -Leif Christian
