@@ -11,8 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-
-    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -31,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/splash.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95a3ff59-928b-429d-8246-1ab7c24f9c25"
+      }
     }
   }
 }

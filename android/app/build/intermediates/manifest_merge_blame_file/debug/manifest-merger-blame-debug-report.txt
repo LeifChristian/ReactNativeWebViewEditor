@@ -1,0 +1,274 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pdtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:3:3-75
+11-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:4:3-63
+13-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:4:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:5:3-77
+14-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:5:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25
+26        <package android:name="host.exp.exponent" /> <!-- Query open documents -->
+26-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-53
+26-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-50
+27        <intent>
+27-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:18
+28            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+28-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-79
+28-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:21-76
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->[com.facebook.flipper:flipper:0.125.0] C:\Users\leifo\.gradle\caches\transforms-3\b2ec3232205e095c09543a31d56ae642\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+32-->[com.facebook.flipper:flipper:0.125.0] C:\Users\leifo\.gradle\caches\transforms-3\b2ec3232205e095c09543a31d56ae642\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\leifo\.gradle\caches\transforms-3\f35d74c5dcce8bac1158d976706434db\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\leifo\.gradle\caches\transforms-3\f35d74c5dcce8bac1158d976706434db\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+34
+35    <application
+35-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:3-33:17
+36        android:name="com.pdtest.MainApplication"
+36-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:16-47
+37        android:allowBackup="false"
+37-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:162-189
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.5.0] C:\Users\leifo\.gradle\caches\transforms-3\f382564408e8806e991bcb7c984abfd6\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:81-115
+41        android:label="@string/app_name"
+41-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:48-80
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:116-161
+43        android:theme="@style/AppTheme"
+43-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:190-221
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:14:222-257
+45        <meta-data
+45-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:15:5-123
+46            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+46-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:15:16-67
+47            android:value="https://exp.host/@leifonatree/pd-test" />
+47-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:15:68-121
+48        <meta-data
+48-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:16:5-93
+49            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+49-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:16:16-68
+50            android:value="45.0.0" />
+50-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:16:69-91
+51        <meta-data
+51-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:17:5-82
+52            android:name="expo.modules.updates.ENABLED"
+52-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:17:16-59
+53            android:value="true" />
+53-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:17:60-80
+54        <meta-data
+54-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:18:5-105
+55            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+55-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:18:16-80
+56            android:value="ALWAYS" />
+56-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:18:81-103
+57        <meta-data
+57-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:19:5-99
+58            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+58-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:19:16-79
+59            android:value="0" />
+59-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:19:80-97
+60
+61        <activity
+61-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:5-31:16
+62            android:name="com.pdtest.MainActivity"
+62-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:15-43
+63            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+63-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:77-154
+64            android:exported="true"
+64-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:276-299
+65            android:label="@string/app_name"
+65-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:44-76
+66            android:launchMode="singleTask"
+66-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:155-186
+67            android:theme="@style/Theme.App.SplashScreen"
+67-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:230-275
+68            android:windowSoftInputMode="adjustResize" >
+68-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:20:187-229
+69            <intent-filter>
+69-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:21:7-24:23
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:22:9-60
+70-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:22:17-58
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:23:9-68
+72-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:23:19-66
+73            </intent-filter>
+74            <intent-filter>
+74-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:25:7-30:23
+75                <action android:name="android.intent.action.VIEW" />
+75-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:7-58
+75-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:15-56
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:27:9-67
+77-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:27:19-65
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:7-67
+78-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:17-65
+79
+80                <data android:scheme="pd-test" />
+80-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:7-37
+80-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:13-35
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:32:5-106
+84            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+84-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:32:15-79
+85            android:exported="false" />
+85-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:32:80-104
+86
+87        <meta-data
+87-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:37
+88            android:name="expo.modules.updates.AUTO_SETUP"
+88-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-59
+89            android:value="false" />
+89-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-34
+90
+91        <activity
+91-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-32:20
+92            android:name="expo.modules.devlauncher.launcher.DevLauncherActivity"
+92-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-81
+93            android:exported="true"
+93-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-36
+94            android:launchMode="singleTask"
+94-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-44
+95            android:screenOrientation="portrait"
+95-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-49
+96            android:theme="@style/Theme.DevLauncher.LauncherActivity" >
+96-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-70
+97            <intent-filter>
+97-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-31:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:7-58
+98-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:15-56
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:27:9-67
+100-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:27:19-65
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:7-67
+101-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:17-65
+102
+103                <data android:scheme="expo-dev-launcher" />
+103-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:7-37
+103-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:13-35
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:70
+107            android:name="expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity"
+107-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-93
+108            android:screenOrientation="portrait"
+108-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-49
+109            android:theme="@style/Theme.DevLauncher.ErrorActivity" />
+109-->[:expo-dev-launcher] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-67
+110        <activity
+110-->[:expo-dev-menu] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-23:20
+111            android:name="expo.modules.devmenu.DevMenuActivity"
+111-->[:expo-dev-menu] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-64
+112            android:exported="true"
+112-->[:expo-dev-menu] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-36
+113            android:launchMode="singleTask"
+113-->[:expo-dev-menu] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+114            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" >
+114-->[:expo-dev-menu] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-75
+115            <intent-filter>
+115-->[:expo-dev-menu] C:\Users\leifo\Desktop\ASS\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-22:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:7-58
+116-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:9:15-56
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:27:9-67
+118-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:27:19-65
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:7-67
+119-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:10:17-65
+120
+121                <data android:scheme="expo-dev-menu" />
+121-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:7-37
+121-->C:\Users\leifo\Desktop\ASS\android\app\src\main\AndroidManifest.xml:11:13-35
+122            </intent-filter>
+123        </activity>
+124
+125        <provider
+125-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
+126            android:name="expo.modules.filesystem.FileSystemFileProvider"
+126-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
+127            android:authorities="com.pdtest.FileSystemFileProvider"
+127-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
+128            android:exported="false"
+128-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+129            android:grantUriPermissions="true" >
+129-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
+130            <meta-data
+130-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
+131                android:name="android.support.FILE_PROVIDER_PATHS"
+131-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
+132                android:resource="@xml/file_system_provider_paths" />
+132-->[:expo-file-system] C:\Users\leifo\Desktop\ASS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
+133        </provider>
+134
+135        <meta-data
+135-->[:expo-modules-core] C:\Users\leifo\Desktop\ASS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
+136            android:name="org.unimodules.core.AppLoader#react-native-headless"
+136-->[:expo-modules-core] C:\Users\leifo\Desktop\ASS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
+137            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+137-->[:expo-modules-core] C:\Users\leifo\Desktop\ASS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
+138
+139        <provider
+139-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\leifo\.gradle\caches\transforms-3\9dd542b615606b647ee7cfef5fb0744e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+140            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\leifo\.gradle\caches\transforms-3\9dd542b615606b647ee7cfef5fb0744e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+141            android:authorities="com.pdtest.lifecycle-process"
+141-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\leifo\.gradle\caches\transforms-3\9dd542b615606b647ee7cfef5fb0744e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+142            android:exported="false"
+142-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\leifo\.gradle\caches\transforms-3\9dd542b615606b647ee7cfef5fb0744e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+143            android:multiprocess="true" />
+143-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\leifo\.gradle\caches\transforms-3\9dd542b615606b647ee7cfef5fb0744e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+144    </application>
+145
+146</manifest>
